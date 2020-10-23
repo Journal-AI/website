@@ -1,0 +1,15 @@
+Warning: in 'Z:\WD-500GB\DATA\Vagrant\Vagrant_G\BuildingArchitecture\Draft-Plan\Sales-Page\convertdrawing\pages.php' at line 49 
+
+            The mail could not be sent on 2017-01-19 19:24:39
+Warning: in 'Z:\WD-500GB\DATA\Vagrant\Vagrant_G\BuildingArchitecture\Draft-Plan\Sales-Page\convertdrawing\pages.php' at line 37 
+
+            Contact Us form parameters error
+Array
+(
+    [contact_name] => 
+    [contact_email] => 
+    [plan_selected] => [Plan:Level] - [Enquiry:Type]
+    [submit] => submit
+)
+
+ on 2017-02-09 21:39:39 using 127.0.0.1
