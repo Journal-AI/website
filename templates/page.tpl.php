@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Thought Provoking</title>
-        <link rel="stylesheet" href="/bower_components/angular_material/angular-material.min.css">
+        <title>Journal-AI</title>
+        <link rel="stylesheet" href="/assets/style/style.css">
+        <link rel="stylesheet" href="/assets/style/bootstrap/css/bootstrap.min.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../site-images/journal-ai.ico" />
+        <link rel="icon" type="image/x-icon" href="../site-images/journal-ai.ico">
     </head>
     <body>
-        <!-- Angular Material requires Angular.js Libraries -->
+        <!-- Angular.js Libraries -->
         <script src="/bower_components/angular/angular.min.js"></script>
         <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
         <script src="/bower_components/angular-aria/angular-aria.min.js"></script>
         <script src="/bower_components/angular-messages/angular-messages.min.js"></script>
 
-        <!-- Angular Material Library -->
-        <script src="/bower_components/angular_material/angular-material.min.js">
         <div class="clearfix" id="header_fixed">
             <div id="page_header" class="container-fluid">
                 <?php require_once "header.tpl.php"; ?>

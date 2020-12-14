@@ -6,8 +6,8 @@
  * and open the template in the editor.
  */
 
-require_once "includes.php";
-define("PAGE_ROOT", dirname(__FILE__));
+define("PAGE_ROOT", "/var/www/app");
+require_once PAGE_ROOT . "/includes.php";
 
 require_once PAGE_ROOT . "/pages.php";
 require_once PAGE_ROOT . "/errors.php";

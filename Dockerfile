@@ -8,14 +8,16 @@ COPY ./docker/php/base.conf /etc/apache2/sites-available/base.conf
 
 COPY ./docker/php/php.ini /usr/local/etc/php/
 
-FROM ubuntu:18.04
-
-USER root
-RUN apt-get update
-RUN apt-get install curl -y
-RUN apt-get install build-essential g++ gcc make cmake -y
 RUN mkdir /home/project
 RUN apt-get install git -y
 WORKDIR /home/project
+
+# symbolic link from source to destination
+RUN ln -s /home/project /var/www/app
+
+RUN a2ensite base.conf
+
+RUN apt-get install nodejs npm -y
+RUN npm install -g bower
 
 EXPOSE 8080

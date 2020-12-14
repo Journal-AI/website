@@ -6,8 +6,8 @@
  * and open the template in the editor.
  */
 
-require_once "routes.php";
-require_once "config.php";
+require_once PAGE_ROOT . "/routes.php";
+require_once PAGE_ROOT . "/config.php";
 
 function page_shutdown_site() {
     

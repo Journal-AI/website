@@ -1,7 +1,7 @@
 <div class="header">
     <div class="container" id="header_top" style="display:block">
-        <div class="menu absolute menu-links">
-            <p>Thought Provoking</p>
+        <div class="menu menu-links position-center">
+            <img src="/site-images/Project-300x.png" alt="Journal-AI" itle="Journal-AI" />
         </div>
     </div>
     <div class="container">
