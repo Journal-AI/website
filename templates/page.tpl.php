@@ -4,6 +4,8 @@
         <title>Journal-AI</title>
         <link rel="stylesheet" href="/assets/style/style.css">
         <link rel="stylesheet" href="/assets/style/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/Font-Awesome/css/all.min.css">
+        <link rel="stylesheet" href="/bower_components/flat-social-icons/flat-icons.css">
         <link rel="shortcut icon" type="image/x-icon" href="../site-images/journal-ai.ico" />
         <link rel="icon" type="image/x-icon" href="../site-images/journal-ai.ico">
     </head>

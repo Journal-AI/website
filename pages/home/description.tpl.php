@@ -42,6 +42,9 @@
             <p class="paragraph-reference">
                 <a class="link" href="https://journalai.buzz/2020/10/06/jumble-the-passage-theme-for-sustainability-games/">
                     Jumble the Passage, Theme
+                </a><br/>
+                <a class="link" href="https://www.facebook.com/jumblethepassage">
+                <i class="fl-icon-facebook" aria-hidden="true"></i> Welcome to Jumble The Passage!
                 </a>
             </p>
         </div>
@@ -61,7 +64,7 @@
             </p>
             <p class="paragraph-reference">
                 <a class="link" href="">
-                    Try this App! produced by @Journal-AI
+                <i class="fa fa-location-arrow" aria-hidden="true"></i> Try this App! produced by @Journal-AI
                 </a>
             </p>
         </div>
