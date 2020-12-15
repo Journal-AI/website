@@ -19,6 +19,7 @@ and open the template in the editor.
     right: 0px;
     bottom: 0px;
     left: 0px;
+    z-index: 1;
 }
 .bg-img-dashcam::before {
     content: "";
@@ -33,6 +34,7 @@ and open the template in the editor.
     right: 0px;
     bottom: 0px;
     left: 0px;
+    z-index: 1;
 }
 .bg-img-privilege::before {
     content: "";
@@ -47,6 +49,7 @@ and open the template in the editor.
     right: 0px;
     bottom: 0px;
     left: 0px;
+    z-index: 1;
 }
 .bg-img-game {
     display: flex;
@@ -220,12 +223,18 @@ body {
     min-height: 200px;
     height: auto;
     padding: 10px;
+    background: transparent;
+    z-index: 999;
+    position: relative;
 }
 .bg-img-below-half {
     border-top: 3px solid gray;
     min-height: 200px;
     height: auto;
     padding: 10px;
+    background: transparent;
+    z-index: 999;
+    position: relative;
 }
 #games-container, #privilege-container, #dashcam-container {
     padding-left: 0px;
@@ -265,5 +274,8 @@ p.paragraph-reference {
     font-style: italic;
     font-weight: bold;
     font-size: 14px;
+    text-align: right;
+}
+p.container-link {
     text-align: right;
 }
