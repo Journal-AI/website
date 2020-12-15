@@ -22,7 +22,7 @@
         </div>
         <div class="col-lg-4 img-thumbnail img-screenshot" id="privilege-description-1">
             <p class="paragraph-description">
-                Privilege Networks help people available for discounted consumer goods.
+                Privilege Networks help people buy discounted consumer goods.
             </p>
             <p class="paragraph-reference">
                 <a class="link" href="https://journalai.buzz/2020/11/24/privilege-networks-for-enhanced-usability/">
