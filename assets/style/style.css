@@ -261,3 +261,9 @@ body {
 p.paragraph-description {
     margin-bottom: 75px;
 }
+p.paragraph-reference {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+}
