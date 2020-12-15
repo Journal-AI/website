@@ -208,6 +208,13 @@ body {
     float: none;
     clear: both;
 }
+#description {
+    margin-top: 50px;
+}
+#description .center-block {
+    float: none;
+    clear: both;
+}
 .bg-img-above-half {
     border-bottom: 3px solid gray;
     min-height: 200px;
@@ -223,4 +230,34 @@ body {
 #games-container, #privilege-container, #dashcam-container {
     padding-left: 0px;
     padding-right: 0px;
+}
+#description .img-thumbnail {
+    border-top: 0 none;
+    border-bottom: 0 none;
+}
+#games-description-1, #privilege-description-1, #dashcam-description-1, 
+#games-description-2, #privilege-description-2, #dashcam-description-2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#games-description-1, #games-description-2 {
+    border-left: 0 none;
+    border-right: 2px solid transparent;
+}
+#dashcam-description-1, #dashcam-description-2 {
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+}
+#privilege-description-1, #privilege-description-2 {
+    border-left: 2px solid transparent;
+    border-right: 0 none;
+}
+#games-description-1 p, #games-description-2 p, #privilege-description-1 p, #privilege-description-2 p, 
+#dashcam-description-1 p, #dashcam-description-2 p {
+    font-style: italic;
+}
+p.paragraph-description {
+    margin-bottom: 75px;
 }
