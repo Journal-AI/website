@@ -6,29 +6,59 @@ and open the template in the editor.
 /* 
     Author     : aswin.vijayakumar
 */
-.bg-img-game {
+.bg-img-game::before {
+    content: "";
     background-image: url(/assets/style/images/poster.png);
+    background-size: cover;
     background-position: 30% 100%;
     background-color: transparent;
     background-repeat: no-repeat;
-    height: 500px;
     opacity: 0.15;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.bg-img-dashcam::before {
+    content: "";
+    background-image: url(/assets/style/images/forest.jpg);
+    background-size: cover;
+    background-position: 30% 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.bg-img-privilege::before {
+    content: "";
+    background-image: url(/assets/style/images/privilege_networks.jpeg);
+    background-size: cover;
+    background-position: 30% 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    opacity: 0.15;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.bg-img-game {
+    display: flex;
+    height: 100vh;
 }
 .bg-img-dashcam {
-    background-image: url(/assets/style/images/forest.jpg);
-    background-position: 30% 100%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    height: 500px;
-    opacity: 0.15;
+    display: flex;
+    height: 100vh;
 }
 .bg-img-privilege {
-    background-image: url(/assets/style/images/privilege_networks.jpeg);
-    background-position: 30% 100%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    height: 500px;
-    opacity: 0.15;
+    height: 100vh;
+    display: flex;
 }
 .notice {
     font-style: italic;
@@ -173,4 +203,24 @@ body {
 .position-center {
     margin-left: auto;
     margin-right: auto;
+}
+#boxed-screenshots {
+    float: none;
+    clear: both;
+}
+.bg-img-above-half {
+    border-bottom: 3px solid gray;
+    min-height: 200px;
+    height: auto;
+    padding: 10px;
+}
+.bg-img-below-half {
+    border-top: 3px solid gray;
+    min-height: 200px;
+    height: auto;
+    padding: 10px;
+}
+#games-container, #privilege-container, #dashcam-container {
+    padding-left: 0px;
+    padding-right: 0px;
 }
