@@ -3,6 +3,6 @@
     <?php //require_once "pricing_table.tpl.php"; ?>
     
     <div class="notice">
-        * - These features are coming soon
+        * - @Journal-AI <a href="https://docs.journalai.io" class="red-link">Journal-AI @Docs</a>
     </div>
 </div>

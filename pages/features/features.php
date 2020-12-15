@@ -4,6 +4,6 @@
     <?php //require_once "demointerface.tpl.php"; ?>
     
     <div class="notice">
-        * - The support for this feature will be made available
+        * - @Journal-AI <a href="https://github.com/Journal-AI">Journal-AI @Github</a>
     </div>
 </div>

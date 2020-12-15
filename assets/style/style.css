@@ -279,3 +279,6 @@ p.paragraph-reference {
 p.container-link {
     text-align: right;
 }
+a.red-link {
+    color: coral;
+}
