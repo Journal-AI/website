@@ -12,7 +12,6 @@ and open the template in the editor.
     background-color: transparent;
     background-repeat: no-repeat;
     height: 500px;
-    width: 30%;
     opacity: 0.15;
 }
 .bg-img-dashcam {
@@ -21,7 +20,6 @@ and open the template in the editor.
     background-color: transparent;
     background-repeat: no-repeat;
     height: 500px;
-    width: 30%;
     opacity: 0.15;
 }
 .bg-img-privilege {
@@ -30,7 +28,6 @@ and open the template in the editor.
     background-color: transparent;
     background-repeat: no-repeat;
     height: 500px;
-    width: 30%;
     opacity: 0.15;
 }
 .notice {
@@ -161,7 +158,6 @@ body {
 }
 .img-screenshot {
     height: 20em;
-    margin-left: 10px;
     float: left;
 }
 .text-general {
