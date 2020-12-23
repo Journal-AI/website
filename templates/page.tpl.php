@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="/bower_components/flat-social-icons/flat-icons.css">
         <link rel="shortcut icon" type="image/x-icon" href="../site-images/journal-ai.ico" />
         <link rel="icon" type="image/x-icon" href="../site-images/journal-ai.ico">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
     </head>
     <body>
         <!-- Angular.js Libraries -->

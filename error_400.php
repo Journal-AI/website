@@ -18,11 +18,9 @@ register_shutdown_function('page_shutdown_site');
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
     </head>
     <body>
-        <div class="clearfix">
+        <div class="clearfix" id="header_fixed">
             <div id="page_header" class="container-fluid">
-                <div class="clearfix text-center">
-                    <a name="header_top" href="/"><img src="/assets/style/images/enscalo-full-scale.png" alt="Enscalo Logo" title="Enscalo Logo" height="140" width="auto" /></a>
-                </div>
+                <?php require_once "header.tpl.php"; ?>
             </div>
         </div>
         <div class="clearfix" id="page_full">

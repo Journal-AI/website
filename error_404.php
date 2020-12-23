@@ -18,17 +18,14 @@ register_shutdown_function('page_shutdown_site');
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
     </head>
     <body>
-        <div class="clearfix">
+        <div class="clearfix" id="header_fixed">
             <div id="page_header" class="container-fluid">
-                <div class="clearfix text-center">
-                    <a name="header_top" href="/"><img src="/assets/style/images/enscalo-full-scale.png" alt="Enscalo Logo" title="Enscalo Logo" height="140" width="auto" /></a>
-                </div>
+                <?php require_once "header.tpl.php"; ?>
             </div>
         </div>
         <div class="clearfix" id="page_full">
             <div id="page_body">
                 <div class="container">
-                    <h1 class="text-center">404 Error</h1>
                     <p>An error has occurred in delivering the page</p>
                     <button type="button" class="btn btn-danger" onclick="navigate_to_section(this, 'home', true); return false;">Go to home page</button>
                 </div>
