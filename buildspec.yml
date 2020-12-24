@@ -4,13 +4,3 @@ batch:
     - identifier: build1
       env:
         compute-type: BUILD_GENERAL1_SMALL
-    - identifier: build2
-      env:
-        compute-type: BUILD_GENERAL1_MEDIUM
-      depend-on:
-        - build1
-    - identifier: build3
-      env:
-        compute-type: BUILD_GENERAL1_LARGE
-      depend-on:
-        - build2
