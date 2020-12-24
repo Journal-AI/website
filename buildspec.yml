@@ -4,3 +4,4 @@ batch:
     - identifier: build1
       env:
         compute-type: BUILD_GENERAL1_SMALL
+        image: aws/codebuild/journal_ai_php:2020-1.0
