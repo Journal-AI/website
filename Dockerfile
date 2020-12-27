@@ -1,7 +1,5 @@
 FROM php:7.2-apache 
 
-USER root
-
 RUN apt-get update \
   && apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmcrypt-dev
 RUN pecl install xdebug
@@ -18,5 +16,4 @@ COPY ./docker/php/php.ini /usr/local/etc/php/
 RUN a2ensite base.conf
 
 WORKDIR /var/www/website
-USER www-data
 EXPOSE 80
