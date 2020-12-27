@@ -3,7 +3,7 @@ services:
   journal_ai_php:
     image: journal_ai_php
     init: true
-    build: .
+    build: ./Dockerfile.app
     container_name: journal_ai_php
     tty: true # persist on ports
     ports:
