@@ -18,4 +18,4 @@ COPY ./docker/php/base.conf /etc/apache2/sites-available/base.conf
 COPY ./docker/php/php.ini /usr/local/etc/php/
 RUN a2ensite base.conf
 
-EXPOSE 8080
+EXPOSE 80
