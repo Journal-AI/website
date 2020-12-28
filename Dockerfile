@@ -22,4 +22,4 @@ RUN a2ensite base.conf
 WORKDIR /var/www/website
 RUN chgrp -R www-data /var/www/website
 RUN chmod -R 755 /var/www/website
-EXPOSE 80
+EXPOSE 8080
