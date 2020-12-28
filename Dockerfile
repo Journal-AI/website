@@ -15,9 +15,9 @@ RUN apt-get install git -y
 # RUN apt-get install nodejs npm -y
 # RUN npm install -g bower
 
-# COPY ./docker/php/base.conf /etc/apache2/sites-available/base.conf
-# COPY ./docker/php/php.ini /usr/local/etc/php/
-# RUN a2ensite base.conf
+COPY ./docker/php/base.conf /etc/apache2/sites-available/base.conf
+COPY ./docker/php/php.ini /usr/local/etc/php/
+RUN a2ensite base.conf
 
 # WORKDIR /var/www/website
 # RUN chgrp -R www-data /var/www/website
@@ -25,8 +25,4 @@ RUN apt-get install git -y
 
 WORKDIR /var/www/website
 
-RUN service apache2 stop
-
-EXPOSE 80
-
-CMD ["php", "-S", "localhost:80"]
+EXPOSE 8080
