@@ -25,6 +25,8 @@ RUN apt-get install git -y
 
 WORKDIR /var/www/website
 
+RUN service apache2 stop
+
 EXPOSE 80
 
 CMD ["php", "-S", "localhost:80"]
