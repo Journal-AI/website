@@ -1,5 +1,9 @@
 FROM php:7.2-apache 
 
+RUN mkdir -p /var/www/website
+
+COPY . /var/www/website
+
 RUN apt-get update \
   && apt-get install -y libfreetype6-dev libjpeg62-turbo-dev libpng-dev libmcrypt-dev
 RUN pecl install xdebug
