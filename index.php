@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-define("PAGE_ROOT", "/var/www/website");
+define("PAGE_ROOT", dirname(__FILE__));
 require_once PAGE_ROOT . "/includes.php";
 
 require_once PAGE_ROOT . "/pages.php";
